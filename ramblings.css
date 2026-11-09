@@ -1,0 +1,29 @@
+body {
+                list-style-type: none;
+    font-family: monospace;
+  /* Ensure container spans full viewport */
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh; /* Modern dynamic viewport height */
+
+  /* Fit background */
+  background-image: url("images/field.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;}
+  
+.opener {
+      margin: 20%;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.list {
+    color:white;
+    background-color:#1F240D;
+}
+.woman {
+     font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+    color: fuchsia;
+}
